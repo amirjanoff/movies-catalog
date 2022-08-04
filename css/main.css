@@ -1,0 +1,23 @@
+.btn-submit button {
+  width: 100%;
+  display: inline-block;
+}
+.container {
+  max-width: 1200px;
+}
+
+ul li a {
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center;
+
+}
+ul li a:hover {
+  background-color: rgb(48, 97, 233) !important;
+  color: #fff !important;
+}
+
+.list-group li p {
+  display: block !important;
+  margin: 2px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootsrap.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5 mx-2">
+        <div class="col-4">
+          <form action="#" method="post">
+            <div class="input-text mt-3">
+              <input type="text" class="form-control" placeholder="ave" />
+            </div>
+            <div class="input-text mt-3">
+              <input type="text" class="form-control" placeholder="5" />
+            </div>
+            <div class="input-text mt-3">
+              <select id="inputSate" class="form-select">
+                <option selected>All</option>
+                <option>!</option>
+                <option>?</option>
+              </select>
+            </div>
+            <div class="input-text mt-3">
+              <select id="rating" class="form-select">
+                <option selected>Rating (high to low)</option>
+                <option>1</option>
+              </select>
+            </div>
+            <div class="input-text mt-3 btn-submit">
+              <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </form>
+          <div class="mt-4">
+            <h2>Bookmarked movies</h2>
+            <ul class="list-group d-block " style="width: 22rem ">
+              <li class="list-group-item ">
+                <p>Avengers: Infinity War</p>
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+              <li class="list-group-item">
+                <p>The Avengers</p>
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+              <li class="list-group-item ">
+               <p> 12 Years a Slave</p>
+                <button type="button" class="btn btn-danger">Remove</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-8">
+          <h2 class="text-center">Movies catalog</h2>
+          <h4>Search results: 39</h4>
+          <div class="alert alert-primary" role="alert" style="width: 47rem">
+            Use the form on the left to search for a movie
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./img/wallper-marvel.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Avengars: Infinity War</h5>
+                  <p class="card-text">📋 2018</p>
+                  <p class="card-text">🌟 8.7</p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Watch trailer
+                  </button>
+                  <button type="button" class="btn btn-outline-info">
+                    More info
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    Bookmark
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./img/wallper-marvel.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Avengars: Infinity War</h5>
+                  <p class="card-text">📋 2012</p>
+                  <p class="card-text">🌟 8.1</p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Watch trailer
+                  </button>
+                  <button type="button" class="btn btn-outline-info">
+                    More info
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    Bookmark
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example ">
+            <ul class="pagination justify-content-center mt-4">
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
